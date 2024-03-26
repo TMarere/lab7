@@ -85,7 +85,7 @@ if(!lastName.trim()){
         setErrors(error);
       }
       else{
-        window.location.href="/src/form.js";
+        window.location.href="../src/form.js";
       }
 
 
