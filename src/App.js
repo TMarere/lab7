@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 
-import { Component, useState } from 'react';
+import {  useState } from 'react';
 
 
 // code used from w3 schools on how to make a form https://www.w3schools.com/react/react_forms.asp
@@ -81,8 +81,8 @@ if(!lastName.trim()){
         console.log(password);
       }
 
-      if(Object.keys(errors).length >0){
-        setErrors(errors);
+      if(Object.keys(error).length >0){
+        setErrors(error);
       }
       else{
         window.location.href="/src/form.js";
