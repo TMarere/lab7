@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { Button } from 'react-bootstrap';
+
 
 import { Component, useState } from 'react';
 
@@ -93,14 +93,8 @@ if(!lastName.trim()){
 
 }
   
-const handleButtonClick = () => {
-  document.getElementById('myForm').submit();
-};
 
-  
- 
-  
-  
+
 
   
 
